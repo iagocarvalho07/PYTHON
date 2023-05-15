@@ -13,23 +13,26 @@ Anotações da aula 21, sobre funções (Parte 2) em Python: notas.md
 Lista de exercícios resolvidos
 # Mundo 1
 ## Conhecendo a linguagem
-Exercício Python #01 - Deixando tudo pronto
-Exercício Python #02 - Respondendo ao usuário
+
+Exercício Python #1 - Deixando tudo pronto
+
+Exercício Python #2 - Respondendo ao usuário
+
 Primeiros passos
-Exercício Python #03 - Somando dois números
-Exercício Python #04 - Dissecando uma variável
+Exercício Python #3 - Somando dois números
+Exercício Python #4 - Dissecando uma variável
 Cálculos e operações
-Exercício Python #05 - Antecessor e sucessor
-Exercício Python #06 - Dobro, triplo e raiz quadrada
-Exercício Python #07 - Média aritmética
-Exercício Python #08 - Conversor de medidas
-Exercício Python #09 - Tabuada
-Exercício Python #010 - Conversor de moedas
-Exercício Python #011 - Pintando parede
-Exercício Python #012 - Calculando descontos
-Exercício Python #013 - Reajuste salarial
-Exercício Python #014 - Conversor de temperaturas
-Exercício Python #015 - Aluguel de carros
+Exercício Python #5 - Antecessor e sucessor
+Exercício Python #6 - Dobro, triplo e raiz quadrada
+Exercício Python #7 - Média aritmética
+Exercício Python #8 - Conversor de medidas
+Exercício Python #9 - Tabuada
+Exercício Python #10 - Conversor de moedas
+Exercício Python #11 - Pintando parede
+Exercício Python #12 - Calculando descontos
+Exercício Python #13 - Reajuste salarial
+Exercício Python #14 - Conversor de temperaturas
+Exercício Python #15 - Aluguel de carros
 
 ## Módulos
 Exercício Python #016 - Quebrando um número
