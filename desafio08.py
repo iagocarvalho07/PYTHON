@@ -1,0 +1,5 @@
+T = int(input('Digite um numero para ver sua tabuada '))
+print("{} x {} = {}".format(T, 1, (T*1)))
+print("{} x {} = {}".format(T, 2, (T*2)))
+print("{} x {} = {}".format(T, 3, (T*3)))
+print("{} x {} = {}".format(T, 4, (T*4)))
