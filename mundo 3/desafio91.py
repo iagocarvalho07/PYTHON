@@ -17,5 +17,6 @@ resultados = dict(sorted(jogadores.items(), key=lambda item: item[1], reverse=Tr
 for chave, valor in resultados.items():
     print(f"{chave} teve um resultado de {valor}")
 
+# Exibe o vencedor
 vencedor = next(iter(resultados))
 print(f"O vencedor é {vencedor} com um resultado de {resultados[vencedor]} no dado")
