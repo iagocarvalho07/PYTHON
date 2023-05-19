@@ -3,17 +3,20 @@ Exercício Python 093: Crie um programa que gerencie o aproveitamento de um joga
 O programa vai ler o nome do jogador e quantas partidas ele jogou. Depois vai ler a quantidade de gols feitos em cada partida. 
 No final, tudo isso será guardado em um dicionário, incluindo o total de gols feitos durante o campeonato.
 """
-jogador = dict()
-gols = list()
-
-nome = str(input("qual o nome do jogador: "))
-partidas = int(input("Quantas partidas esse jogador jogou? "))
-jogador.update({"nome": nome, "partidas": partidas})
+golsMarcados = []
+JogadorTotal = {}
+nome = input("Digite o nome do jogador: ")
+partidas = int(input("Quantas partidas esse jogadorou: "))
 for i in range(partidas):
-    gols.append(int(input(f"Quantos gols esse jogar marcou {i+1}° partida: ")))
-    
-jogador.update({"Numero de gols": gols})
-gols.clear()
-print(jogador)
-print()
+    gols = int(input(f"Quantos gols o jogador marcou na partida {i+1}? "))
+    golsMarcados.append(gols)
 
+total_de_gols = sum(golsMarcados)
+
+JogadorTotal = {"jogador": nome, "numero de partidas": partidas, "gols": golsMarcados}
+
+print("-" * 30)
+print(f"O jogador {JogadorTotal['jogador']} jogou {JogadorTotal['numero de partidas']} partidas no campeonato e marcou um total de {total_de_gols} gols.")
+
+for i, x in enumerate(golsMarcados):
+    print(f"No {i + 1}º jogo, o jogador marcou {x} gols")
