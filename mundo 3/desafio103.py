@@ -6,7 +6,7 @@ mesmo que algum dado não tenha sido informado corretamente.
 Aula Ant
 """
 def ficha(Jogador='Desconhecido', gols=0):
-    print(F" o {Jogador} fez {gols} no campeonto")
+        print(F" o {Jogador} fez {gols} no campeonto")
 
 
 nome_jogador = str(input("digite o nome do jogador: "))
