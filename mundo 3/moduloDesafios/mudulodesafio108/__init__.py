@@ -21,3 +21,6 @@ def dobro(nuns):
 def metade(meta):
     return meta / 2
     
+
+def moeda(preco =0 , moeda ="R$"):
+    return f"{moeda}{preco}".replace(".", ",")
